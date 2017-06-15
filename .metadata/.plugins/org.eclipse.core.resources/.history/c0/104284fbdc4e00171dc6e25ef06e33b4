@@ -1,0 +1,18 @@
+package com.spring.lifecycle.beans;
+
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+
+public class Style1SpringBean implements InitializingBean, DisposableBean {
+
+	public void destroy() throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void afterPropertiesSet() throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

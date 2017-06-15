@@ -1,0 +1,5 @@
+package com.spring.collection.injection.beans;
+
+public class Person {
+
+}

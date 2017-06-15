@@ -1,0 +1,26 @@
+package com.spring.collection.injection.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.spring.collection.injection.beans.Person;
+import com.spring.collection.injection.beans.SpringBean;
+
+public class SpringAppMain {
+
+	public static void main(String[] args) {
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
+				"applicationContext.xml");
+		
+		SpringBean bean = (SpringBean) applicationContext.getBean("springBean") ;
+		bean.getLists().forEach(System.out::println);
+		bean.getSets().forEach(System.out::println);
+		bean.getMaps().keySet().forEach(e -> {
+			System.out.println("Key = "+e+ " Value = "+bean.getMaps().get(e));
+		});
+		
+		Person person= (Person) applicationContext.getBean("personBean") ;
+		System.out.println(person);
+	}
+
+}

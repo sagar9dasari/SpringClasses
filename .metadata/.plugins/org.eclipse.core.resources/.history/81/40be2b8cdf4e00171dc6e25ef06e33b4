@@ -1,0 +1,25 @@
+package com.demo.spring.ioc.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
+
+import com.demo.spring.ioc.dao.StudentDao;
+@Service("studentService")
+public class StudentServiceImpl implements StudentService {
+	
+	@Autowired
+	@Qualifier("studentDao")
+	private StudentDao studentDao ;
+
+	public StudentDao getStudentDao() {
+		return studentDao;
+	}
+
+	public void setStudentDao(StudentDao studentDao) {
+		this.studentDao = studentDao;
+	}
+	
+	
+
+}

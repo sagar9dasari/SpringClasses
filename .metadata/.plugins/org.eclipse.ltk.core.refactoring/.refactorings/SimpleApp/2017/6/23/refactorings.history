@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 packages to &apos;SpringSetterInjectionDemo/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;SimpleApp&apos;&#x0D;&#x0A;- Destination element: &apos;SpringSetterInjectionDemo/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     SimpleApp/src/com.demo.spring.ioc.service&#x0D;&#x0A;     SimpleApp/src/com.demo.spring.ioc&#x0D;&#x0A;     SimpleApp/src/com.demo.spring.ioc.domain&#x0D;&#x0A;     SimpleApp/src/com.demo.spring.ioc.dao" description="Copy packages" destination="=SpringSetterInjectionDemo/src\/main\/java" element1="/src&lt;com.demo.spring.ioc.service" element2="/src&lt;com.demo.spring.ioc" element3="/src&lt;com.demo.spring.ioc.domain" element4="/src&lt;com.demo.spring.ioc.dao" flags="589830" fragments="4" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1497129028505" version="1.0"/>
+</session>

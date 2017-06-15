@@ -1,0 +1,23 @@
+package com.demo.spring.ioc;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.demo.spring.ioc.domain.Student;
+import com.demo.spring.ioc.service.StudentService;
+
+public class StudentAppMain {
+
+	private static ApplicationContext context = new ClassPathXmlApplicationContext(
+			"applicationContext.xml");
+
+	public static void main(String[] args) {
+
+		StudentService studentService = (StudentService) context
+				.getBean("studentService");
+
+		studentService.insert(new Student());
+
+	}
+
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.demo.spring.ioc.service.StudentService"/>
+<fullyQualifiedTypeName name="com.demo.spring.ioc.dao.StudentDaoImpl"/>
+<fullyQualifiedTypeName name="com.demo.spring.ioc.service.StudentServiceImpl"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
+<fullyQualifiedTypeName name="com.spring.lifecycle.beans.Style1SpringBean"/>
+<fullyQualifiedTypeName name="org.springframework.context.ConfigurableApplicationContext"/>
+<fullyQualifiedTypeName name="com.spring.lifecycle.beans.Style2SpringBean"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="com.demo.spring.ioc.domain.Student"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.spring.collection.injection.beans.SpringBean"/>
+<fullyQualifiedTypeName name="com.spring.collection.injection.beans.Person"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+</qualifiedTypeNameHistroy>

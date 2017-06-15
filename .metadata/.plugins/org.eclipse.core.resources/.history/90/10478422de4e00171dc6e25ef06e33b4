@@ -1,0 +1,26 @@
+package com.spring.lifecycle.main ;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.spring.lifecycle.beans.Style1SpringBean;
+
+
+public class StudentAppMain {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+		// Style 1
+		Style1SpringBean style1Bean = (Style1SpringBean) applicationContext.getBean("style1Bean") ;
+		style1Bean.beanMethod(); 
+		((ConfigurableApplicationContext)applicationContext).close();
+		
+		// Style 1
+		Style1SpringBean style2Bean = (Style1SpringBean) applicationContext.getBean("style1Bean") ;
+		style2Bean.beanMethod(); 
+		((ConfigurableApplicationContext)applicationContext).close();
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.spring.lifecycle.beans;
+
+public class Style2SpringBean {
+
+}
