@@ -1,0 +1,6 @@
+com\krypto\test\dao\CustomerDao.class
+com\krypto\test\dao\ICustomerDao.class
+com\krypto\test\service\ICustomerService.class
+com\krypto\test\exception\CustomerAppException.class
+com\krypto\test\domain\Customer.class
+com\krypto\test\service\CustomerService.class
